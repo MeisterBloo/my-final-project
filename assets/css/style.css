@@ -1,8 +1,13 @@
+/* Background Images pulled from unsplash.com and altered through Inkscape */
+
 .admission {
     background-image: url(/assets/img/bwtent.png);
     background-size: cover;
     background-color: black;
 }
+
+
+/* Floating animation tips used below found at geeksforgeeks.org */
 
 .admit {
     margin-left: 46%;
@@ -51,7 +56,6 @@ a:hover {
 }
 
 audio {
-    volume = 0.2;
     float: right;
     margin-top: 90%;
     visibility: hidden;
