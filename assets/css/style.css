@@ -24,3 +24,35 @@
     background-size: cover;
     background-color: black;
 }
+
+.navbar1 {
+    font-size: x-large;
+    width: 14%;
+    position: fixed;
+    margin-left: 5px;
+    margin-top: 12%;
+}
+
+a {
+    display: block;
+    color: white;
+    font-family: 'Monoton', cursive;
+    text-decoration: none;
+    padding-top: 15px;
+    text-shadow: 2px 2px black;
+
+}
+
+a:hover {
+    color: red;
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+
+audio {
+    volume = 0.2;
+    float: right;
+    margin-top: 90%;
+    visibility: hidden;
+}
