@@ -1,0 +1,26 @@
+.admission {
+    background-image: url(/assets/img/bwtent.png);
+    background-size: cover;
+    background-color: black;
+}
+
+.admit {
+    margin-left: 46%;
+    margin-top: 5%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.homepage {
+    background-image: url(/assets/img/fire1.jpg);
+    background-size: cover;
+    background-color: black;
+}
