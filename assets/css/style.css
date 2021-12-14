@@ -1,4 +1,4 @@
-/* Background Images pulled from unsplash.com and altered through Inkscape */
+/* All Background Images pulled from unsplash.com and altered through Inkscape */
 
 .admission {
     background-image: url(/assets/img/bwtent.png);
@@ -31,8 +31,6 @@
     font-size: x-large;
 }
 
-/* Neon Coloration */
-
 .neon {
     text-shadow: 
         0 0 7px #fff,
@@ -43,11 +41,12 @@
         0 0 151px #0fa;
 }
 
-
 .indexaudio {
     float: left;
     visibility: hidden;
 }
+
+/* End of index.html */
 
 .homepage {
     background-image: url(/assets/img/fire1.jpg);
@@ -110,6 +109,7 @@
     opacity: 20%;
 }
 
+/* Copywright and Networking Links */
 
 footer {
     position: absolute;
@@ -148,6 +148,8 @@ footer {
     opacity: 0.7;
 }
 
+/* From here on out, it's simple Easter Egg/Treasure Hunt nonsense and fun. */
+
 .missingheart {
     color: rgb(244, 247, 107);
     font-family: 'Monoton', cursive;
@@ -173,7 +175,6 @@ footer {
     position: absolute;
 }
 
-
 .ostara {
     width: 20px;
     height: 20px;
@@ -192,7 +193,7 @@ footer {
 }
 
 .grats {
-    font-family: "Meow Script", cursive;
+    font-family: "Permanent Marker", cursive;
     color: chartreuse;
     font-size: 50px;
     text-shadow: 3px 2px black;
@@ -211,6 +212,6 @@ footer {
 .foundyou {
     max-width: 200px;
     margin-left: 58%;
-    margin-top: -4%;
+    margin-top: -2%;
     opacity: 30%;
 }
