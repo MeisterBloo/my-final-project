@@ -24,6 +24,11 @@
     100%   { transform: translate(0, -0px); }   
 }
 
+.indexaudio {
+    float: left;
+    visibility: hidden;
+}
+
 .homepage {
     background-image: url(/assets/img/fire1.jpg);
     background-size: cover;
@@ -38,29 +43,85 @@
     margin-top: 12%;
 }
 
-a {
+.nav {
     display: block;
-    color: white;
+    color: rgb(244, 247, 107);
     font-family: 'Monoton', cursive;
     text-decoration: none;
     padding-top: 15px;
-    text-shadow: 2px 2px black;
-
+    text-shadow: 2px 2px rgb(252, 107, 11);
 }
 
-a:hover {
+.nav:hover {
     color: red;
     font-family: 'Creepster', cursive;
     font-size: 40px;
     text-shadow: 2px 2px black;
 }
 
-.carnivalaudio {
-    float: right;
-    margin-top: 90%;
-    visibility: hidden;
+.title {
+    right: 0;
+    position: fixed;
 }
 
-.homepageaudio {
-    float: left;
+.infobox {
+    background-color: black;
+    opacity: 90%;
+    float: right;
+    margin-top: 20%;
+    margin-right: 5%;
+}
+
+.news {
+    color: rgb(244, 247, 107);
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px rgb(252, 107, 11);
+}
+
+.newsprint {
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 2px 2px black;
+    text-indent: 40px;
+}
+
+.carnivalaudio {
+    opacity: 20%;
+}
+
+
+footer {
+    position: absolute;
+    margin-top: 87%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    color: white;
+    text-shadow: 2px 2px black;
+    height: 50px;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 23px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
