@@ -55,8 +55,12 @@ a:hover {
     text-shadow: 2px 2px black;
 }
 
-audio {
+.carnivalaudio {
     float: right;
     margin-top: 90%;
     visibility: hidden;
+}
+
+.homepageaudio {
+    float: left;
 }
