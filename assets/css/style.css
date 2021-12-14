@@ -59,7 +59,11 @@
     width: 25%;
     position: fixed;
     margin-left: 5px;
-    margin-top: 12%;
+}
+
+.icon {
+    max-width: 150px;
+    margin-left: -8%;
 }
 
 .nav {
@@ -83,19 +87,82 @@
     position: fixed;
 }
 
-.map {
-    float: left;
-    margin-top: 70%;
-    max-width: 300px;
-    max-height: 300px;
+.info {
+    width: 70%;
+    height: 850px;
+    margin-top: 20%;
+    margin-right: 15px;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.900);
+    position: sticky;
+    overflow: hidden;
 }
+
+.contactinfo {
+    width: 270px;
+    float: left;
+}
+
+.contactheader {
+    color: rgb(244, 247, 107);
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px rgb(252, 107, 11);
+    text-align: center;
+    font-size: 40px;
+}
+
+.contacttext {
+    font-family: "Luckiest Guy", cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    font-size: x-large;
+}
+
+.map {
+    max-width: 50px;
+    max-height: 50px;
+    opacity: none;
+    float: right;
+    padding-right: 550px;
+}
+
+.form {
+    margin-top: 60%;
+    clear: both;
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 3px solid rgb(244, 247, 107);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: rgb(244, 247, 107);
+    color: rgb(0, 0, 0);
+    font-family: "Monoton", cursive;
+    font-size: larger;
+    padding: 12px 20px;
+    border: 1px solid rgb(252, 107, 11);
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 15px;
+  }
 
 .infobox {
     background-color: black;
     opacity: 90%;
     float: right;
     margin-top: 20%;
-    margin-right: 5%;
+    margin-right: 15px;
+    width: 70%;
 }
 
 .news {
