@@ -6,7 +6,6 @@
     background-color: black;
 }
 
-
 /* Floating animation tips used below found at geeksforgeeks.org */
 
 .admit {
@@ -24,6 +23,27 @@
     100%   { transform: translate(0, -0px); }   
 }
 
+.neonsign {
+    text-align: center;
+    margin-top: 25%;
+    color: #d9ff00;
+    font-family: "Meow Script", cursive;
+    font-size: x-large;
+}
+
+/* Neon Coloration */
+
+.neon {
+    text-shadow: 
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 151px #0fa;
+}
+
+
 .indexaudio {
     float: left;
     visibility: hidden;
@@ -37,7 +57,7 @@
 
 .navbar1 {
     font-size: x-large;
-    width: 14%;
+    width: 25%;
     position: fixed;
     margin-left: 5px;
     margin-top: 12%;
@@ -47,9 +67,9 @@
     display: block;
     color: rgb(244, 247, 107);
     font-family: 'Monoton', cursive;
-    text-decoration: none;
     padding-top: 15px;
     text-shadow: 2px 2px rgb(252, 107, 11);
+    text-decoration: none;
 }
 
 .nav:hover {
@@ -73,6 +93,7 @@
 }
 
 .news {
+    text-indent: 10px;
     color: rgb(244, 247, 107);
     font-family: 'Lobster', cursive;
     text-shadow: 2px 2px rgb(252, 107, 11);
@@ -99,15 +120,16 @@ footer {
     font-size: x-large;
     color: white;
     text-shadow: 2px 2px black;
-    height: 50px;
+    height: 0px;
 }
 
 .fa {
     padding: 8px;
     font-size: 30px;
-    width: 23px;
+    width: 20px;
     text-align: center;
     border-radius: 50%;
+    text-shadow: none;
   }
 
 
@@ -124,4 +146,71 @@ footer {
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.missingheart {
+    color: rgb(244, 247, 107);
+    font-family: 'Monoton', cursive;
+    text-shadow: 2px 2px rgb(252, 107, 11);
+    text-decoration: none;
+    font-size: x-large;
+    margin-top: 87%;
+    margin-left: 16%;
+    float: left;
+}
+
+.missingheart:hover {
+    color: rgba(0, 0, 255, 0);
+    text-shadow: none;
+}
+
+.brokenheart {
+    margin-top: 86.2%;
+    margin-left: 15.8%;
+    float: left;
+    font-size: x-large;
+    z-index: -1;
+    position: absolute;
+}
+
+
+.ostara {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 90%;
+}
+
+.ostara a {
+    text-decoration: none;
+    color: black;
+}
+
+.ostarapage {
+    background-image: url(/assets/img/merrygoround.png);
+    background-position: cover;
+}
+
+.grats {
+    font-family: "Meow Script", cursive;
+    color: chartreuse;
+    font-size: 50px;
+    text-shadow: 3px 2px black;
+    margin-left: 10px;
+}
+
+.foundme {
+    font-family: "Meow Script", cursive;
+    color: chartreuse;
+    text-shadow: 3px 2px black;
+    text-indent: 40px;
+    margin-top: -50px;
+    font-size: 40px;
+}
+
+.foundyou {
+    max-width: 200px;
+    margin-left: 58%;
+    margin-top: -4%;
+    opacity: 30%;
 }
