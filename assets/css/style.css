@@ -83,6 +83,13 @@
     position: fixed;
 }
 
+.map {
+    float: left;
+    margin-top: 70%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 .infobox {
     background-color: black;
     opacity: 90%;
