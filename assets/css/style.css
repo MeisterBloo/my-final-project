@@ -50,7 +50,7 @@
 /* End of index.html */
 
 .homepage {
-    background-image: url(/assets/img/fire1.jpg);
+    background-image: url(../img/fire1.jpg);
     background-size: cover;
     background-color: black;
 }
@@ -263,7 +263,7 @@ footer {
 }
 
 .ostarapage {
-    background-image: url(/assets/img/merrygoround.png);
+    background-image: url(../img/merrygoround.png);
     background-position: cover;
 }
 
