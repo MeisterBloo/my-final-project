@@ -1,7 +1,8 @@
 /* All Background Images pulled from unsplash.com and altered through Inkscape */
 
 .admission {
-    background-image: url(/assets/img/bwtent.png);
+    background-image: url(../img/bwtent.png);
+    background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
 }
