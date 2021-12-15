@@ -1,7 +1,7 @@
 /* All Background Images pulled from unsplash.com and altered through Inkscape */
 
 .admission {
-    background-image: url(assets/img/bwtent.png);
+    background-image: url(/assets/img/bwtent.png);
     background-size: cover;
     background-color: black;
 }
@@ -49,7 +49,7 @@
 /* End of index.html */
 
 .homepage {
-    background-image: url(assets/img/fire1.jpg);
+    background-image: url(/assets/img/fire1.jpg);
     background-size: cover;
     background-color: black;
 }
@@ -262,7 +262,7 @@ footer {
 }
 
 .ostarapage {
-    background-image: url(assets/img/merrygoround.png);
+    background-image: url(/assets/img/merrygoround.png);
     background-position: cover;
 }
 
